@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Кристина\\OneDrive\\Рабочий стол\\Homework_C#\\C_HW_26.11.22\\Zadacha_3\\Zadacha_3.csproj": {}
+    "C:\\Users\\1\\Desktop\\Lections_C#\\C_Homework_26-11-22\\Zadacha_3\\Zadacha_3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Кристина\\OneDrive\\Рабочий стол\\Homework_C#\\C_HW_26.11.22\\Zadacha_3\\Zadacha_3.csproj": {
+    "C:\\Users\\1\\Desktop\\Lections_C#\\C_Homework_26-11-22\\Zadacha_3\\Zadacha_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Кристина\\OneDrive\\Рабочий стол\\Homework_C#\\C_HW_26.11.22\\Zadacha_3\\Zadacha_3.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\Lections_C#\\C_Homework_26-11-22\\Zadacha_3\\Zadacha_3.csproj",
         "projectName": "Zadacha_3",
-        "projectPath": "C:\\Users\\Кристина\\OneDrive\\Рабочий стол\\Homework_C#\\C_HW_26.11.22\\Zadacha_3\\Zadacha_3.csproj",
-        "packagesPath": "C:\\Users\\Кристина\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Кристина\\OneDrive\\Рабочий стол\\Homework_C#\\C_HW_26.11.22\\Zadacha_3\\obj\\",
+        "projectPath": "C:\\Users\\1\\Desktop\\Lections_C#\\C_Homework_26-11-22\\Zadacha_3\\Zadacha_3.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\Lections_C#\\C_Homework_26-11-22\\Zadacha_3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Кристина\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

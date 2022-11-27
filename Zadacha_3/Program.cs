@@ -1,34 +1,50 @@
 ﻿void Zadacha38()
 {
-    // Задайте массив вещественных чисел. 
+    // Задайте массив вещественных чисел.
     //Найдите разницу между максимальным и минимальным элементов массива.
 
     int size = 6;
-    double[] numbers = new double[size];
-    FillArray(numbers, 0, 15);
-    PrintArray(numbers);
-    
+
+    double[] array = new double[size];
+    Random rand = new Random();
+    double minArr = array[0];
+    double maxArr = array[0];
+    for (int i = 0; i < size; i++)
+    {
+        array[i] = rand.Next(-100, 100) + rand.NextDouble();
+    }
+    PrintArray(array);
+
+    double SumArr = 0;
+    for (int i = 0; i < size; i++)
+    {
+        if (minArr > array[i])
+        {
+            minArr = array[i];
+        }
+    }
+    Console.WriteLine("Минимальное значение массива " + minArr);
+
+    for (int i = 0; i < size; i++)
+    {
+    if(maxArr < array[i])
+    {
+    maxArr = array[i];
+    }
+    }
+    Console.WriteLine("Максимальное значение массива " + maxArr);
 
 
+for (int i = 0; i < size; i++)
+{
+SumArr = minArr + maxArr;
+}
+Console.WriteLine("Сумма максимального и минимального значения массива " + SumArr);
 }
 Zadacha38();
 
-
-void FillArray(double[] nums, double minValue, double maxValue)
-{
-    maxValue++;
-    Random rand = new Random();
-    int length = nums.Length;
-    for (int i = 0; i < length; i++)
-    {
-        nums[i] = rand.NextDouble(minValue, maxValue);
-        Convert.ToDouble(rand.Next(1, 11));
-    }
-}
-
 void PrintArray(double[] nums)
 {
-
     int length = nums.Length;
     Console.WriteLine("Вывод массива: ");
     for (int i = 0; i < length; i++)
